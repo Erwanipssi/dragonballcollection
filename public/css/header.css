@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+    background: linear-gradient(120deg, #ff914d, #ff7e36, #ff5400);
+}
+
+.dbz-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+.nav-icon {
+    width: 40px;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover .nav-icon {
+    transform: rotate(360deg); 
+}
+
+.logo-img {
+    width: 100px;
+}
+
+
+button {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF6347;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 255, 0, 0.5); /* Glowing effect */
+}

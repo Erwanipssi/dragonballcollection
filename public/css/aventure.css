@@ -1,0 +1,27 @@
+
+
+.carousel-item blockquote {
+    background: none; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.tiktok-embed {
+    width: 100%; 
+    max-width: 1000px; 
+    height: 500px; 
+    overflow: hidden; 
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+
+
+#embed-video-container{
+    background-color: none
+    ;
+}

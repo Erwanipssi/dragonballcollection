@@ -1,0 +1,58 @@
+/* Global styles and gradient background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #ff914d, #ff7e36, #ff5400); /* Orange gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.form_container {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: auto;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff5400; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e64a19; /* Slightly darker on hover */
+}
